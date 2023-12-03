@@ -1,0 +1,94 @@
+math_checkfile
+math_checkfile
+num1=4
+$num1
+wxho $num1
+echo $num1
+num2=8
+echo $(( $num1 + $num2 ))
+$(( 7+2 ))
+echo $(( 7+2 ))
+cd /home/codio
+nano .bashrc
+cd /home/codio
+nano .bashrc
+echo $num1
+num1=4
+echo $num1
+num2=8
+echo $num2
+echo $(( $num1 + $num2 ))
+math_checkfile
+echo $(( $num1-$num2 ))
+math_checkfile
+echo $(( $num1 - $num2 ))
+math_checkfile
+math_checkfile
+math_checkfile
+math_checkfile
+echo -e "Student\t\tArea of Study"; echo -e "Rodney\t\tSystems Administration"; echo -e "Arya\t\tDefense Against White Walkers"
+echo -e "Winter\nIs\nComing"
+echo -e "State\nCapital\nPopulation"
+echo; echo -e "State\tCapital\tPopulation"; echo
+printf "%d and %d are odd.\n" 1 3
+echo; printf "%d and %d are odd.\n" 1 3; echo
+echo; printf "%d and %d are even.\n" 2 4; echo
+df
+df -h
+feww -h
+free -h
+df help
+help df
+df --help
+$(df -h / | awk 'NR==2 {print $4}')
+free -h
+printf -v logdate "%(%Y-%m-%d)T"
+$logdate
+echo $logdate
+bash systemReport.sh
+clear
+bash systemReport.sh
+grep $'\t' systemReport.sh
+grep '\t' systemReport.sh
+grep $'\t' systemReport.sh
+grep -P "\t" systemReport.sh
+grep "$(printf '\t')" systemReport.sh
+grep -P "\'\t' systemReport.sh
+
+grep -P '\t' systemReport.sh
+grep $'\t' systemReport.sh
+grep "$(printf '\t')" systemReport.sh
+grep $'\t' systemReport.sh
+grep -P '^\t' systemReport.sh
+grep -P 't' systemReport.sh
+grep -P '\\t' systemReport.sh
+awk -F\" '{print NF-1}' systemReport.sh
+awk -F\\t '{print NF-1}' systemReport.sh
+awk -F\t '{print NF-1}' systemReport.sh
+grep -P '\\t' systemReport.sh
+tr -dc '\t' <<< systemReport.sh | awk '{ print length; }'
+tr -dc '\\t' <<< systemReport.sh | awk '{ print length; }'
+grep -o '\t' systemReport.sh | wc -l
+grep -o '\\t' systemReport.sh | wc -l
+awk -F\\t '{print NF-1}' systemReport.sh
+awk -F\t '{print NF-1}' systemReport.sh
+grep -o -n '[\t]' systemReport.sh | cut -d : -f 1 | uniq -c
+grep -o -n '[\\t]' systemReport.sh | cut -d : -f 1 | uniq -c
+grep -o -n '\\t' systemReport.sh | cut -d : -f 1 | uniq -c
+grep -o -n '\\t' systemReport.sh | cut -d : -f 1 | uniq -c | awk '{ print $1 }'
+bash systemReport.sh
+bash evenOrOdd.sh
+bash .guides/bashtests/arrayTest.sh
+bash evenOrOdd.sh
+bash .guides/bashtests/arrayTest.sh
+if [[ "$(grep -w 'even' /home/codio/workspace/evenOrOdd.sh)" =/home/codio *'[ ${even[2]} -gt ${odd[2]} ]'* ]]; then
+grep -w 'even' /home/codio/workspace/evenOrOdd.sh
+grep -w 'even[2]' /home/codio/workspace/evenOrOdd.sh
+grep -w '&&' /home/codio/workspace/evenOrOdd.sh
+bash .guides/bashtests/arrayTest.sh
+help test
+[[ -e systemReport.sh && -z systemReport.sh ]]; echo $?
+man read
+echo -n "Out of the sea "; echo -n "wish I could be "; echo "part of that world." 
+math_checkfile
+math_checkfile

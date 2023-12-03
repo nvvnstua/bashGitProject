@@ -1,0 +1,102 @@
+create-bash
+rm ~/.bash_history
+echo this is a test
+echo Holla if you hear me
+echo this is another test
+holla
+create-bash
+create-bash
+create-bash
+create-bash
+create-bash
+chmod +x newbash
+./newbash
+holla
+create-bash
+create-bash
+create-bash
+create-bash
+cat newbash
+cat newbash >> thisisascript.txt
+VAR='GNU/Linux is an operating system'
+if [[ $VAR == *"Linux"* ]]; then   echo "It's there."
+scriptVariable=cat newbash
+grep -c -l "#Leaving Comments" thisisascript.txt
+grep -c "#Leaving Comments" thisisascript.txt
+grep -c "#Leaving Comment" thisisascript.txt
+grep -c "Arriving Now" thisisascript.txt
+if grep "echo Hello, World" thisisascript.txt; then echo "It is here!"; fi
+if grep "#Leaving" thisisascript.txt; then echo "It is here!"; fi
+if grep "echo "Hello, World"" thisisascript.txt; then echo "It is here!"; fi
+if grep "echo \"Hello, World\"" thisisascript.txt; then echo "It is here!"; fi
+if grep "echo \"Hello, World\"" <<< cat newbash; then echo "It is here!"; fi
+find . -type f -empty -prune -o -type f -printf "%s\t" -exec file --brief --mime-type '{}' \; | awk 'BEGIN {printf("%12s\t%12s\n","bytes","type")} {type=$2; a[type]+=$1} END {for (i in a) printf("%12u\t%12s\n", a[i], i)|"sort -nr"}'
+nano newbash
+echo "Yesterday, I ate a pie."
+echo "the kernal is ($uname -r)"
+echo "The kernal is $(uname -r)."
+echo -n "Blue Shirt"; echo -n "Green Shirt"; echo "My Shirt"
+echo -n "Blue Shirt "; echo -n "Green Shirt "; echo "Yellow Shirt"
+echo -n "One Fish "; echo -n "Two Fish "; echo -n "Red Fish "; echo "Blue Fish"
+echo "One Fish "; echo "Two Fish "; echo "Red Fish "; echo "Blue Fish"
+declare -p
+bash variable.sh
+declare -p
+bash variable.sh
+echo $myname
+declare -p
+echo $myname
+myname=Robin
+myaffirmations="You are confident and capable today."
+age=27
+echo $myname
+declare -p
+myfirstname=Jacobi
+mylastname=Marshall
+myage=27
+echo "My full name is $(myfirstname) $(mylastname)."
+echo "I am $(age) years old.
+'
+myfirstname=Jacobi
+mylastname=Marshall
+myage=27
+echo "My full name is $myfirstname $mylastname."
+echo "I am $myage years old.
+echo "I am $myage years old."
+echo age
+echo $myage
+echo "I am $myage years old."
+echo "My full name is $myfirstname $mylastname. I am $myage years old."
+echo -n "My full name is $myfirstname $mylastname."; echo I am $myage years old."
+echo -n "My full name is $myfirstname $mylastname. "; echo "I am $myage years old."
+echo "My full name is $myfirstname $mylastname."; echo "I am $myage years old."
+marbles=5
+echo marbles
+echo$marbles
+echo $marbles
+((marbles++))
+echo $marbles
+((marbles+=5))
+echo $marbles
+help test
+clear
+[ 7 -eq 15 ]; echo $?
+[ 7 -eq 7 ]; echo $?
+[ "green" -eq "GREEN" ]; echo $?
+[ 'green' -eq 'green' ]; echo $?
+[ "green" = "green" ]; echo $?
+[ "green" -eq "green" ]; echo $?
+[ "green" = "green" ]; echo $?
+[ "green" = "blue" ]; echo $?
+[ "2345" = "2345" ]; echo $?
+[ "2345" -eq "2345" ]; echo $?
+[ "green" -eq "green" ]; echo $?
+[7-eq15]; echo $?
+[ 7 -eq 15 ]; echo $?
+[ 12 -gt 16 ]; echo $?
+[ 12 -lt 16 ]; echo $?
+true && echo "It is known!"
+printf "%(%Y-%m-%d %H:%M:%S)T\n"
+echo -e "Student\t\tArea of Study"; echo -e "Rodney\t\tSystems Administration"; echo -e "Arya\t\tDefense Against White Walkers"
+create-bash
+create-bash

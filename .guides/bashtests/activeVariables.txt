@@ -1,0 +1,54 @@
+declare -- BASH="/bin/bash"
+declare -r BASHOPTS="cmdhist:complete_fullquote:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath"
+declare -ir BASHPID
+declare -A BASH_ALIASES=()
+declare -a BASH_ARGC=()
+declare -a BASH_ARGV=()
+declare -A BASH_CMDS=()
+declare -- BASH_COMMAND
+declare -a BASH_LINENO=([0]="0")
+declare -a BASH_SOURCE=([0]=".guides/bashtests/variableTest.sh")
+declare -- BASH_SUBSHELL
+declare -ar BASH_VERSINFO=([0]="4" [1]="4" [2]="20" [3]="1" [4]="release" [5]="x86_64-pc-linux-gnu")
+declare -- BASH_VERSION="4.4.20(1)-release"
+declare -x CODIO_BOX_DOMAIN="desert-henry.codio.io"
+declare -x CODIO_HOSTNAME="desert-henry"
+declare -- COMP_WORDBREAKS
+declare -a DIRSTACK=()
+declare -ir EUID="1000"
+declare -a FUNCNAME
+declare -a GROUPS=()
+declare -i HISTCMD
+declare -x HOME="/home/codio"
+declare -- HOSTNAME="desert-henry"
+declare -- HOSTTYPE="x86_64"
+declare -- IFS=" 	
+"
+declare -x LANG="en_US.UTF-8"
+declare -i LINENO
+declare -x LOGNAME="codio"
+declare -- MACHTYPE="x86_64-pc-linux-gnu"
+declare -x MAIL="/var/mail/codio"
+declare -x OLDPWD="/home/codio"
+declare -- OPTERR="1"
+declare -i OPTIND="1"
+declare -- OSTYPE="linux-gnu"
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+declare -ir PPID="295"
+declare -- PS4="+ "
+declare -x PWD="/home/codio/workspace"
+declare -i RANDOM
+declare -- SECONDS
+declare -x SHELL="/bin/bash"
+declare -r SHELLOPTS="braceexpand:hashall:interactive-comments"
+declare -x SHLVL="2"
+declare -x SSH_CLIENT="192.168.11.179 42876 22"
+declare -x SSH_CONNECTION="192.168.11.179 42876 10.51.23.213 22"
+declare -x SSH_TTY="/dev/pts/2"
+declare -x TERM="xterm"
+declare -x TZ=":/etc/localtime"
+declare -ir UID="1000"
+declare -x USER="codio"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SESSION_ID="2025383"
+declare -x _="/bin/bash"
