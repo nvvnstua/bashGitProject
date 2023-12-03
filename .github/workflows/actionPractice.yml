@@ -36,3 +36,15 @@ jobs:
         run: |
           echo "Now ending build workflow."
           echo "Have a great day!"
+
+  repo_forked:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'fork'
+    needs: build
+    env:
+      user: Steven Universe
+    steps:
+      - name: Inform Steven
+        run: |
+          echo "Hello $user, this job is about to end."
+          echo "Job has ended."
